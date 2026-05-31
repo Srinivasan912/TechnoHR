@@ -13,8 +13,7 @@ import { runPayroll, lockPayroll, createNextCycle } from "@/lib/payroll.function
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogFooter } from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { pdf } from "@react-pdf/renderer";
-import { PayslipDocument, type PayslipData } from "@/components/PayslipDocument";
+import type { PayslipData } from "@/components/PayslipDocument";
 
 export const Route = createFileRoute("/app/payroll")({ component: PayrollPage });
 
